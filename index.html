@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lazarus Chinemerem Owah — PHP Developer &amp; Data Analyst</title>
+<meta name="description" content="Portfolio of Lazarus Chinemerem Owah — PHP developer, data analyst, and virtual assistant. Featured project: Sunco Bookstore, a full-stack e-commerce web app." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">LC<span>O</span>.</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 class="hero-name">Lazarus Chinemerem<br/>Owah</h1>
+        <p class="hero-roles"><span id="roleTyped"></span><span class="cursor">&nbsp;</span></p>
+        <p class="hero-desc">
+          Computer Science graduate who builds working software and makes sense of
+          data. I develop responsive web applications, analyze data for decision‑making,
+          and provide reliable administrative and virtual assistant support — so businesses
+          spend less time on busywork and more time growing.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+        </div>
+        <div class="hero-social">
+          <a href="mailto:techowasco@gmail.com">Email</a>
+          <a href="https://github.com/techowasco-ops" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <img src="profile.jpg" alt="Portrait of Lazarus Chinemerem Owah" />
+          </div>
+          <div class="hero-badge b1"><span class="dot"></span> PHP &amp; MySQL</div>
+          <div class="hero-badge b2"><span class="dot"></span> Excel &amp; SQL</div>
+          <div class="hero-badge b3"><span class="dot"></span> Open to work</div>
+        </div>
+
+        <div class="console">
+          <div class="console-bar">
+            <span class="cdot r"></span><span class="cdot y"></span><span class="cdot g"></span>
+            <span class="console-title">query.sql</span>
+          </div>
+          <div class="console-body"><span id="typedQuery"></span><span class="caret"></span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ STAT STRIP ============ -->
+  <div class="stat-strip">
+    <div class="container">
+      <div class="stat"><div class="num"><span data-count="4" data-suffix="+">0</span></div><div class="label">Years Experience</div></div>
+      <div class="stat"><div class="num"><span data-count="1" data-suffix="+">0</span></div><div class="label">Major Web Project</div></div>
+      <div class="stat"><div class="num"><span data-count="10" data-suffix="+">0</span></div><div class="label">Technical Skills</div></div>
+      <div class="stat"><div class="num"><span data-count="100" data-suffix="%">0</span></div><div class="label">Committed to Quality</div></div>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="container about-grid">
+
+      <div class="reveal">
+        <div class="about-card">
+          <h4>Who I am</h4>
+          <p>Computer Science graduate from the Federal University of Kashere, based in Nigeria. I work across web development, data analysis, and administrative support.</p>
+          <div class="about-tags">
+            <span class="tag">B.Sc. Computer Science</span>
+            <span class="tag">Freelancer</span>
+            <span class="tag">Remote-ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-body reveal">
+        <p class="eyebrow">About Me</p>
+        <h2 style="font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 22px;">A developer's eye, an analyst's discipline</h2>
+        <p>I'm a <strong>Computer Science graduate</strong> with hands-on experience in web development, administrative support, customer service, and business operations. I enjoy building applications that solve real problems, and I'm continuously growing my expertise in data analysis — turning spreadsheets and raw records into summaries people can actually act on.</p>
+        <p>My background spans <strong>customer-facing roles</strong> and <strong>back-office operations</strong> as much as it spans code, which shapes how I build: I design for the person who has to use the thing, not just for the person who has to ship it.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="yr">2021</p>
+            <h4>Ceetech Solutions</h4>
+            <p>Customer Service</p>
+          </div>
+          <div class="timeline-item">
+            <p class="yr">2022</p>
+            <h4>Business Center</h4>
+            <p>Administrative Support</p>
+          </div>
+          <div class="timeline-item">
+            <p class="yr">2026</p>
+            <h4>B.Sc. Computer Science</h4>
+            <p>Federal University of Kashere</p>
+          </div>
+          <div class="timeline-item">
+            <p class="yr">Present</p>
+            <h4>Freelance Developer</h4>
+            <p>PHP development, data analysis &amp; virtual assistance</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" style="background: var(--bg-alt);">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>What I bring to a project</h2>
+        <p>A mix of hands-on development, data work, and the operational skills that keep a project running.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="icon">💻</div>
+          <h4>Web Development</h4>
+          <div class="skill-list">
+            <span class="skill-chip"><span class="lvl core"></span>PHP</span>
+            <span class="skill-chip"><span class="lvl core"></span>MySQL</span>
+            <span class="skill-chip"><span class="lvl core"></span>HTML5</span>
+            <span class="skill-chip"><span class="lvl core"></span>CSS3</span>
+            <span class="skill-chip"><span class="lvl working"></span>JavaScript</span>
+            <span class="skill-chip"><span class="lvl core"></span>Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="icon">📊</div>
+          <h4>Data Analysis</h4>
+          <div class="skill-list">
+            <span class="skill-chip"><span class="lvl core"></span>Excel</span>
+            <span class="skill-chip"><span class="lvl core"></span>SQL</span>
+            <span class="skill-chip"><span class="lvl learning"></span>Power BI</span>
+            <span class="skill-chip"><span class="lvl working"></span>Data Cleaning</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="icon">📁</div>
+          <h4>Administrative Support</h4>
+          <div class="skill-list">
+            <span class="skill-chip"><span class="lvl core"></span>Data Entry</span>
+            <span class="skill-chip"><span class="lvl core"></span>Microsoft Office</span>
+            <span class="skill-chip"><span class="lvl working"></span>Google Workspace</span>
+            <span class="skill-chip"><span class="lvl core"></span>Email Management</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="icon">✍</div>
+          <h4>Writing</h4>
+          <div class="skill-list">
+            <span class="skill-chip"><span class="lvl core"></span>Content Writing</span>
+            <span class="skill-chip"><span class="lvl core"></span>Copywriting</span>
+            <span class="skill-chip"><span class="lvl working"></span>SEO Writing</span>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="footer-mono" style="margin-top: 22px;">● core &nbsp; ● working &nbsp; ○ learning</p>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured Project</p>
+        <h2>Sunco Bookstore</h2>
+        <p>A full-stack e-commerce web application, from catalog to checkout.</p>
+      </div>
+
+      <div class="project-spot reveal">
+        <div class="project-top">
+          <div>
+            <h3>An online bookstore, built end to end</h3>
+            <p>Sunco Bookstore lets visitors browse a book catalog, register an account, manage a shopping cart, and complete a simulated checkout. I built the full flow — authentication, cart state, order summaries — using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.</p>
+
+            <ul class="feature-list">
+              <li>Secure login &amp; registration</li>
+              <li>Book catalog with details</li>
+              <li>Shopping cart with quantities</li>
+              <li>Checkout with order summary</li>
+              <li>Order history</li>
+              <li>Responsive design</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="project-badges">
+              <span class="badge">PHP</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">HTML5</span>
+              <span class="badge">CSS3</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">Bootstrap</span>
+            </div>
+            <p style="color: var(--text-soft); margin-bottom: 20px; font-size: 0.92rem;">Currently deployed as a live demo — explore the working app or step through the screens below.</p>
+            <div class="project-actions">
+              <a href="https://code-companion--owahlazarus122.replit.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Live Project ↗</a>
+              <a href="https://github.com/techowasco-ops" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">View Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery">
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-home.jpg" alt="Sunco Bookstore landing page inviting visitors to browse the collection" /></div>
+            </div>
+            <p class="gallery-cap"><b>Landing Page</b>First impression &amp; call to browse</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-login.jpg" alt="Sunco Bookstore login screen" /></div>
+            </div>
+            <p class="gallery-cap"><b>Login</b>Secure authentication with PHP &amp; MySQL</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-register.jpg" alt="Sunco Bookstore account registration screen" /></div>
+            </div>
+            <p class="gallery-cap"><b>Registration</b>New account sign-up flow</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-catalog.jpg" alt="Sunco Bookstore book catalog grid" /></div>
+            </div>
+            <p class="gallery-cap"><b>Book Catalog</b>Browsable collection grid</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-book-details.jpg" alt="Sunco Bookstore book detail page with add to cart" /></div>
+            </div>
+            <p class="gallery-cap"><b>Book Details</b>Pricing, stock &amp; add-to-cart</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-cart.jpg" alt="Sunco Bookstore shopping cart with quantity management" /></div>
+            </div>
+            <p class="gallery-cap"><b>Shopping Cart</b>Quantity management &amp; dynamic pricing</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-checkout.jpg" alt="Sunco Bookstore checkout page with payment form" /></div>
+            </div>
+            <p class="gallery-cap"><b>Checkout</b>Payment form with validation</p>
+          </div>
+
+          <div class="gallery-item reveal">
+            <div class="browser-frame">
+              <div class="browser-chrome"><span class="cdot" style="background:#F87171"></span><span class="cdot" style="background:#FBBF24"></span><span class="cdot" style="background:#34D399"></span></div>
+              <div class="browser-shot"><img src="sunco-orders.jpg" alt="Sunco Bookstore order history page" /></div>
+            </div>
+            <p class="gallery-cap"><b>Order History</b>Past orders at a glance</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" style="background: var(--bg-alt);">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Services</p>
+        <h2>How I can help</h2>
+        <p>Available for freelance and contract work across development, data, and operations.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="num">01</div>
+          <h4>Web Development</h4>
+          <p>Business &amp; e-commerce websites, PHP applications, and database integration.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="num">02</div>
+          <h4>Data Analysis</h4>
+          <p>Excel dashboards, SQL queries, data cleaning, and reporting.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="num">03</div>
+          <h4>Administrative Support</h4>
+          <p>Data entry, email management, internet research, and document prep.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="num">04</div>
+          <h4>Content Writing</h4>
+          <p>Blog posts, product descriptions, and website copy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <div class="container contact-grid">
+
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 style="font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 12px;">Let's work together</h2>
+        <p style="color: var(--text-soft);">Available for freelance projects and full-time roles. Reach out through any of these channels, or use the form.</p>
+
+        <div class="contact-list">
+          <a class="contact-row" href="mailto:techowasco@gmail.com">
+            <div class="ic">📧</div>
+            <div><div class="lbl">Email</div><div class="val">techowasco@gmail.com</div></div>
+          </a>
+          <a class="contact-row" href="tel:+2348139771361">
+            <div class="ic">📱</div>
+            <div><div class="lbl">Phone</div><div class="val">+234 813 977 1361</div></div>
+          </a>
+          <a class="contact-row" href="tel:+2349113199328">
+            <div class="ic">📱</div>
+            <div><div class="lbl">Phone (alt)</div><div class="val">+234 911 319 9328</div></div>
+          </a>
+          <a class="contact-row" href="https://wa.me/2348139771361" target="_blank" rel="noopener">
+            <div class="ic">💬</div>
+            <div><div class="lbl">WhatsApp</div><div class="val">Chat on WhatsApp</div></div>
+          </a>
+          <a class="contact-row" href="#" target="_blank" rel="noopener">
+            <div class="ic">💼</div>
+            <div><div class="lbl">LinkedIn</div><div class="val">linkedin.com/in/lazarus-owah</div></div>
+          </a>
+          <a class="contact-row" href="https://github.com/techowasco-ops" target="_blank" rel="noopener">
+            <div class="ic">🐙</div>
+            <div><div class="lbl">GitHub</div><div class="val">github.com/techowasco-ops</div></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <form class="form-card" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="fname">Name</label>
+              <input id="fname" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="femail">Email</label>
+              <input id="femail" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="field full" style="margin-bottom: 16px;">
+            <label for="fsubject">Subject</label>
+            <input id="fsubject" name="subject" type="text" placeholder="What's this about?" />
+          </div>
+          <div class="field full" style="margin-bottom: 20px;">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <!-- honeypot: hidden from real visitors, bots tend to fill it in -->
+          <input type="text" id="fcompany" name="company" autocomplete="off" tabindex="-1"
+                 style="position:absolute; left:-9999px; width:1px; height:1px;" aria-hidden="true" />
+          <button type="submit" class="btn btn-primary" id="formSubmit" style="width:100%; justify-content:center;">Send Message</button>
+          <p class="form-note" id="formStatus" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Lazarus Chinemerem Owah. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-mono">Built with HTML, CSS &amp; JavaScript</p>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <img id="lightboxImg" src="" alt="" />
+  <p class="lightbox-cap" id="lightboxCap"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
